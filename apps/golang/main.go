@@ -100,7 +100,7 @@ func main() {
 	}
 
 	args := flag.Args()
-	if len(args) != 1 {
+	if len(args) != 9 {
 		usage()
 		os.Exit(2)
 	}
